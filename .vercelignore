@@ -1,0 +1,20 @@
+# Vercel ignores node_modules by default, but we need it
+
+# So don't ignore it
+
+# Only ignore development files
+
+.git
+.gitignore
+.env
+.env.local
+README.md
+.DS_Store
+.vscode
+.idea
+
+# Don't ignore these - we need them!
+
+# node_modules
+
+# src

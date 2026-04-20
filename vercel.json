@@ -1,35 +1,13 @@
 {
   "version": 2,
+  "buildCommand": "npm install",
   "builds": [
     {
       "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/css/(.*)",
-      "dest": "/src/assets/css/$1"
-    },
-    {
-      "src": "/scripts/(.*)",
-      "dest": "/src/assets/scripts/$1"
-    },
-    {
-      "src": "/img/(.*)",
-      "dest": "/src/assets/img/$1"
-    },
-    {
-      "src": "/bootstrap/(.*)",
-      "dest": "/node_modules/bootstrap/$1"
-    },
-    {
-      "src": "/gsap/(.*)",
-      "dest": "/node_modules/gsap/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "index.js"
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["src/**", "node_modules/**"]
+      }
     }
   ]
 }
