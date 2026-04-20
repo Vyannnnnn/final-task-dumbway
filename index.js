@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-app.use(express.static("node_modules"));
-app.use(express.static("src/assets"));
+app.use(express.static(path.join(__dirname, "node_modules")));
+app.use(express.static(path.join(__dirname, "src/assets")));
 
 app.engine(
   "hbs",
