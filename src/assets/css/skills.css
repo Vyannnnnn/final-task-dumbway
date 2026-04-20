@@ -1,0 +1,119 @@
+#skills {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 60px 0;
+}
+
+#skills .section-title {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+#skills > .container > .row > .col-lg-8 > .reveal > p {
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  /* margin-bottom: 2rem; */
+}
+
+.skills-gallery {
+  margin-top: -12px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-cards {
+  position: absolute;
+  width: 6rem;
+  height: 7rem;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.skills-cards li.active {
+  scale: 1.15;
+  opacity: 1;
+  z-index: 10;
+  border-color: #f5a623;
+  box-shadow: 0 12px 36px rgba(245, 166, 35, 0.3);
+}
+
+.skills-cards li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 12rem;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  background: white;
+  border: 3px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.5s ease-out;
+  will-change: transform, opacity;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.skills-cards li .tech-label {
+  font-size: 0.7rem;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.skills-actions {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  z-index: 20;
+}
+
+.skills-actions button {
+  padding: 12px 24px;
+  border: 2px solid #5bbcbf;
+  background: white;
+  color: #333;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.skills-actions button:hover {
+  background: #5bbcbf;
+  color: white;
+  box-shadow: 0 6px 20px rgba(91, 188, 191, 0.3);
+  transform: translateY(-2px);
+}
+
+.skills-drag-proxy {
+  visibility: hidden;
+  position: absolute;
+}

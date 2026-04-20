@@ -1,0 +1,137 @@
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="reveal">
+          <h2 class="section-title mb-3">Projects</h2>
+          <p>
+            A collection of freelance projects and digital products I've brought
+            to life.
+          </p>
+        </div>
+
+        <div class="row g-3" id="projectsContainer">
+          <!-- Projects will be rendered here by JavaScript -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Project Detail Modal -->
+<div
+  class="modal fade"
+  id="projectModal"
+  tabindex="-1"
+  aria-labelledby="projectModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <!-- Gradient Header -->
+      <div id="modalGradientHeader" class="modal-gradient-header">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <span id="modalCategoryBadge" class="badge mb-2"></span>
+            <h5 class="modal-title" id="projectModalLabel"></h5>
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <!-- Project Image & Info -->
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <img
+              id="modalProjectImage"
+              src=""
+              alt=""
+              class="img-fluid rounded-3 mb-3"
+            />
+          </div>
+          <div class="col-md-6">
+            <p id="modalProjectDescription" class="text-muted mb-3"></p>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Tech Stack with Badges -->
+        <div class="mb-4">
+          <h6 class="mb-3">
+            <i class="bi bi-gear-fill me-2"></i>Tech Stack
+          </h6>
+          <div id="modalTechStack" class="d-flex flex-wrap gap-2"></div>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Challenge Section -->
+        <div class="mb-4">
+          <h6 class="mb-2">
+            <i class="bi bi-exclamation-circle-fill me-2"></i>Challenge
+          </h6>
+          <p id="modalChallenge" class="text-muted ps-4"></p>
+        </div>
+
+        <!-- Solution Section -->
+        <div class="mb-4">
+          <h6 class="mb-2">
+            <i class="bi bi-lightbulb-fill me-2"></i>Solution & Learnings
+          </h6>
+          <p id="modalSolution" class="text-muted ps-4"></p>
+        </div>
+
+        <!-- Timeline Section -->
+        <div class="mb-4">
+          <h6 class="mb-2">
+            <i class="bi bi-calendar-event me-2"></i>Timeline
+          </h6>
+          <p id="modalTimeline" class="text-muted ps-4"></p>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Links Section -->
+        <div class="modal-links">
+          <h6 class="mb-3">
+            <i class="bi bi-link-45deg me-2"></i>Links
+          </h6>
+          <div class="d-flex gap-2">
+            <a
+              id="modalDemoLink"
+              href="#"
+              target="_blank"
+              class="btn-demo"
+              style="display:none;"
+            >
+              <i class="bi bi-box-arrow-up-right"></i>
+              Live Demo
+            </a>
+            <a
+              id="modalGithubLink"
+              href="#"
+              target="_blank"
+              class="btn-repo"
+              style="display:none;"
+            >
+              <i class="bi bi-github"></i>
+              Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<script src="/scripts/projects.js"></script>
