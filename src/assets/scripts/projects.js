@@ -1,7 +1,7 @@
 const projectsData = [
   {
     id: 1,
-    title: "Heavy equipment website",
+    title: "Heavy Equipment Website",
     category: "Freelance",
     categoryColor: "tag-teal",
     image: "/img/alat-berat.png",
@@ -11,7 +11,7 @@ const projectsData = [
       "The platform was experiencing slow load times and high bounce rates due to unoptimized images and poor database queries.",
     solution:
       "Implemented image compression, optimized SQL queries, added caching strategies, and improved overall database indexing. Reduced load time by 60%.",
-    timeline: "3 months",
+    timeline: "1 month",
     techStack: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     demoLink: "https://heavy-equipment.example.com",
     githubLink: "https://github.com/yourname/heavy-equipment-website",
@@ -28,10 +28,10 @@ const projectsData = [
       "Need to extract and normalize data from multiple website sources with different HTML structures in real-time.",
     solution:
       "Built a robust web scraper using BeautifulSoup with regex pattern matching. Implemented data validation and normalization pipeline. Created REST API for data retrieval.",
-    timeline: "2 months",
-    techStack: ["Python", "BeautifulSoup", "Flask", "PostgreSQL", "JavaScript"],
+    timeline: "4 months",
+    techStack: ["Python", "MySQL", "JavaScript"],
     demoLink: "https://clipper-app.example.com",
-    githubLink: "https://github.com/yourname/website-clipper",
+    githubLink: "https://github.com/Vyannnnnn/ClipperV2",
   },
   {
     id: 3,
@@ -45,14 +45,14 @@ const projectsData = [
       "Create reusable, responsive templates that are easy to customize without coding knowledge.",
     solution:
       "Developed modular component-based templates using Bootstrap. Created admin dashboard for easy customization of colors, fonts, and content.",
-    timeline: "4 months",
-    techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "Handlebars"],
-    demoLink: "https://templates-demo.example.com",
-    githubLink: "https://github.com/yourname/website-templates",
+    timeline: "3 weeks",
+    techStack: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    demoLink: "https://vyannnnnn.github.io/portfolio-cuy/",
+    githubLink: "https://github.com/Vyannnnnn/portfolio-cuy",
   },
   {
     id: 4,
-    title: "Sports equipment dashboard",
+    title: "Sports Equipment Dashboard",
     category: "Freelance",
     categoryColor: "tag-grey",
     image: "/img/sport.png",
@@ -62,14 +62,14 @@ const projectsData = [
       "Need to manage complex inventory with multiple product variants and real-time stock updates.",
     solution:
       "Implemented real-time inventory system with low-stock alerts. Created admin dashboard with analytics and sales reporting.",
-    timeline: "3 months",
-    techStack: ["Node.js", "Express", "React", "PostgreSQL", "Stripe"],
+    timeline: "2 months",
+    techStack: ["Laravel", "JavaScript", "Tailwind", "MySQL"],
     demoLink: "https://sports-equipment.example.com",
-    githubLink: "https://github.com/yourname/sports-equipment-dashboard",
+    githubLink: "https://github.com/Vyannnnnn/my-sports",
   },
   {
     id: 5,
-    title: "Car rent website",
+    title: "Car Rent Website",
     category: "Freelance",
     categoryColor: "tag-teal",
     image: "/img/rent.png",
@@ -80,13 +80,13 @@ const projectsData = [
     solution:
       "Built advanced booking system with calendar conflict detection. Implemented dynamic pricing based on demand and seasonal rates.",
     timeline: "2.5 months",
-    techStack: ["Node.js", "Express", "Vue.js", "PostgreSQL", "Stripe"],
+    techStack: ["CodeIgniter", "MySQL"],
     demoLink: "https://car-rent.example.com",
-    githubLink: "https://github.com/yourname/car-rent-website",
+    githubLink: "https://github.com/Vyannnnnn/Rental-Mobil",
   },
   {
     id: 6,
-    title: "Movie list website",
+    title: "Movie List Website",
     category: "Freelance",
     categoryColor: "tag-yellow",
     image: "/img/mov.png",
@@ -97,13 +97,13 @@ const projectsData = [
     solution:
       "Integrated with TMDB API for movie data. Implemented Elasticsearch for fast full-text search. Added personalized recommendation system.",
     timeline: "2 months",
-    techStack: ["React", "Node.js", "MongoDB", "Elasticsearch", "Stripe"],
+    techStack: ["React", "Node.js", "Tailwind", "JavaScript"],
     demoLink: "https://movie-list.example.com",
-    githubLink: "https://github.com/yourname/movie-list-website",
+    githubLink: "https://github.com/Vyannnnnn/movie-web-",
   },
   {
     id: 7,
-    title: "Education game website",
+    title: "Education Game Website",
     category: "Freelance",
     categoryColor: "tag-red",
     image: "/img/game.png",
@@ -113,10 +113,10 @@ const projectsData = [
       "Create engaging educational content that maintains user retention and tracks learning progress.",
     solution:
       "Built gamified learning experience with achievements, leaderboards, and progress tracking. Integrated spaced repetition algorithm for optimal learning.",
-    timeline: "4 months",
-    techStack: ["Phaser.js", "Node.js", "PostgreSQL", "React", "WebSocket"],
+    timeline: "2 months",
+    techStack: ["HTML", "CSS", "JavaScript"],
     demoLink: "https://education-game.example.com",
-    githubLink: "https://github.com/yourname/education-game",
+    githubLink: "https://github.com/Vyannnnnn/Joki-Game",
   },
   {
     id: 8,
@@ -130,10 +130,10 @@ const projectsData = [
       "Create seamless appointment booking system with automated reminders and patient communication.",
     solution:
       "Implemented real-time appointment scheduling with SMS/Email notifications. Created patient portal for medical history and appointment history.",
-    timeline: "2 months",
-    techStack: ["Node.js", "Express", "React", "PostgreSQL", "Twilio"],
+    timeline: "3 months",
+    techStack: ["Node.js", "Express", "React", "MySQL", "WebSocket", "Tailwind"],
     demoLink: "https://dental-care.example.com",
-    githubLink: "https://github.com/yourname/dental-care-website",
+    githubLink: "https://github.com/Vyannnnnn/key-dental-care-FE",
   },
   {
     id: 9,
@@ -148,9 +148,9 @@ const projectsData = [
     solution:
       "Built offline-first POS system with sync capability. Implemented real-time inventory updates and integrated with accounting software.",
     timeline: "3 months",
-    techStack: ["React", "Node.js", "PostgreSQL", "Electron", "Firebase"],
+    techStack: ["Tailwind", "JavaScript", "CodeIgniter", "MySQL",],
     demoLink: "https://cashier-system.example.com",
-    githubLink: "https://github.com/yourname/cashier-website",
+    githubLink: "https://github.com/Vyannnnnn/web-kasirmakan",
   },
 ];
 
@@ -281,9 +281,9 @@ function openProjectModal(projectId) {
     elasticsearch: "devicon-elasticsearch-plain colored",
     "phaser.js": "devicon-javascript-plain colored",
     websocket: "devicon-javascript-plain colored",
-    twilio: "devicon-javascript-plain colored",
-    electron: "devicon-electron-original colored",
-    firebase: "devicon-firebase-plain colored",
+    codeigniter: "devicon-codeigniter-plain colored",
+    tailwind: "devicon-tailwindcss-plain colored",
+    laravel: "devicon-laravel-plain colored",
   };
 
   const techStackHtml = project.techStack
